@@ -527,7 +527,7 @@ export default function Home() {
 
               {/* Outputs (Only shows when clean prompt exists) */}
               {clean && (
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 animate-pulse-slow">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
                   
                   {/* Improved Output Panel */}
                   <div className="lg:col-span-7 bg-zinc-900/90 border border-zinc-800 rounded-xl shadow-xl shadow-black/40 overflow-hidden flex flex-col">
